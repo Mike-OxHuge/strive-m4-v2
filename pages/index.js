@@ -2,10 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Homepage from "../components/Home";
-import apiKey from "../pages/api/auth";
 
 export default function Home() {
-  console.log({ apiKey });
   return (
     <div>
       <Head>

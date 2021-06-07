@@ -1,6 +1,7 @@
 import { Component } from "react";
 import AddComment from "./AddComment";
 import DeleteComment from "./DeleteComments";
+import styles from "../styles/Comments.module.css";
 class Comments extends Component {
   state = {
     asin: this.props.book.asin,
@@ -45,16 +46,13 @@ class Comments extends Component {
     });
   };
   componentDidUpdate = async (prevProp, prevState) => {
-    // console.log("updated");
-    // console.log(prevState.comments);
-    // console.log(this.state.comments);
     if (prevState.isLoading !== this.state.isLoading) {
       this.fetchComments();
     }
   };
   render() {
     return (
-      <div onClick={this.refresh}>
+      <div onClick={this.refresh} className={styles.container}>
         {this.state.isLoading ? <p>Loading...</p> : ""}
         {this.state.comments.length === 0 && !this.state.isLoading ? (
           <p>No comments to display</p>
@@ -68,7 +66,7 @@ class Comments extends Component {
                 <div>
                   <DeleteComment
                     commentId={comment._id}
-                    apiKey={this.props.apiKey}
+                    apiKey={this.state.apiKey}
                   />
                 </div>
                 <div>

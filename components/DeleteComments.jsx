@@ -1,7 +1,7 @@
 import { Component } from "react";
 class DeleteComponent extends Component {
   componentDidMount = () => {
-    console.log(this.props.commentId);
+    // console.log(this.props.commentId);
   };
   state = {};
   deleteComment = async () => {
