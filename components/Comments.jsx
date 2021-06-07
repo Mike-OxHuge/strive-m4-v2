@@ -73,7 +73,7 @@ class Comments extends Component {
                     apiKey={this.state.apiKey}
                   />
                 </div>
-                <div>
+                <div className={styles.single}>
                   <li className="my-2">
                     Book ID is: {comment.elementId} | {comment.comment} | I rate
                     it {comment.rate}
