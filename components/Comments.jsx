@@ -9,6 +9,7 @@ class Comments extends Component {
     apiKey: "",
     isLoading: true,
   };
+
   fetchComments = async () => {
     let response = await fetch(
       `https://striveschool-api.herokuapp.com/api/comments/${this.state.asin}`,
@@ -24,6 +25,7 @@ class Comments extends Component {
       isLoading: false,
     });
   };
+
   componentDidMount = async () => {
     let username = "mikelitoris34@icloud.com";
     let password = "bollocks69";
@@ -37,19 +39,21 @@ class Comments extends Component {
     this.setState({
       apiKey: "Bearer " + key.access_token,
     });
-
     this.fetchComments();
   };
+
   refresh = () => {
     this.setState({
       isLoading: true,
     });
   };
+
   componentDidUpdate = async (prevProp, prevState) => {
     if (prevState.isLoading !== this.state.isLoading) {
       this.fetchComments();
     }
   };
+
   render() {
     return (
       <div onClick={this.refresh} className={styles.container}>
