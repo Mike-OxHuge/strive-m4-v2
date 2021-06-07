@@ -1,0 +1,121 @@
+[
+  {
+    "asin": "0316438960",
+    "title": "The Last Wish: Introducing the Witcher",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51eHtkVLL5L.jpg",
+    "price": 9.59,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0316389706",
+    "title": "Sword of Destiny (The Witcher)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/91uxJwnolDL.jpg",
+    "price": 10.39,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0786966246",
+    "title": "D&D MORDENKAINEN'S TOME OF FOES (Dungeons & Dragons)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/8147MOLG%2BoL.jpg",
+    "price": 27.94,
+    "category": "fantasy"
+  },
+  {
+    "asin": "1945683694",
+    "title": "Destiny Grimoire Anthology, Volume II: Fallen Kingdoms",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/91IHwcEy2DL.jpg",
+    "price": 19.92,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0786966254",
+    "title": "D&D Waterdeep Dragon Heist HC (Dungeons & Dragons)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81Sfnxpke4L.jpg",
+    "price": 34.61,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0062059882",
+    "title": "American Gods: The Tenth Anniversary Edition: A Novel",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/519mwdpzlmL.jpg",
+    "price": 14.94,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0345535413",
+    "title": "A Clash of Kings (HBO Tie-in Edition): A Song of Ice and Fire: Book Two",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/91Pqmk8FzAL.jpg",
+    "price": 14.31,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0140157379",
+    "title": "Haroun and the Sea of Stories",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/91R8tRi2KTL.jpg",
+    "price": 11.4,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0553808044",
+    "title": "A Game of Thrones: The Illustrated Edition: A Song of Ice and Fire: Book One",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/A12tbaSby%2BL.jpg",
+    "price": 28.06,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0316228028",
+    "title": "Stiletto: A Novel (The Rook Files)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51whAHbBsDL.jpg",
+    "price": 10.37,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0008288798",
+    "title": "A Reaper at the Gates (Ember Quartet, Book 3)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/91vFU0KCm9L.jpg",
+    "price": 12.6,
+    "category": "fantasy"
+  },
+  {
+    "asin": "1250222060",
+    "title": "A Gathering of Shadows Collector's Edition: A Novel (Shades of Magic)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81Jw33fmYzL.jpg",
+    "price": 18.85,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0345548531",
+    "title": "Staked: The Iron Druid Chronicles, Book Eight",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/91eMFXdhM0L.jpg",
+    "price": 7.59,
+    "category": "fantasy"
+  },
+  {
+    "asin": "1597808709",
+    "title": "A Second Chance: The Chronicles of St. Mary's Book Three",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/714wSBJshRL.jpg",
+    "price": 9.86,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0062678108",
+    "title": "The City of Brass: A Novel (The Daevabad Trilogy)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51AiOrm56BL.jpg",
+    "price": 18.37,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0316434604",
+    "title": "Strange Practice (A Dr. Greta Helsing Novel)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/61WMUVR7PWL.jpg",
+    "price": 12.67,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0765319233",
+    "title": "Chronicles of the Black Company",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/511RvCsDsTL.jpg",
+    "price": 17.94,
+    "category": "fantasy"
+  }
+]
