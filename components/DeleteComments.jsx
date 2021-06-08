@@ -1,16 +1,11 @@
-import { Component } from "react";
-class DeleteComponent extends Component {
-  componentDidMount = () => {
-    // console.log(this.props.commentId);
-  };
-  state = {};
-  deleteComment = async () => {
+const DeleteComment = ({ apiKey, commentId }) => {
+  const deleteComment = async () => {
     await fetch(
-      `https://striveschool-api.herokuapp.com/api/comments/${this.props.commentId}`,
+      `https://striveschool-api.herokuapp.com/api/comments/${commentId}`,
       {
         method: "DELETE",
         headers: {
-          Authorization: this.props.apiKey,
+          Authorization: apiKey,
           "Content-type": "application/json",
         },
       }
@@ -18,9 +13,8 @@ class DeleteComponent extends Component {
     alert("The comment has been deleted");
     window.location.reload();
   };
-  render() {
-    return <button onClick={() => this.deleteComment()}>delete comment</button>;
-  }
-}
 
-export default DeleteComponent;
+  return <button onClick={() => deleteComment()}>delete comment</button>;
+};
+
+export default DeleteComment;
