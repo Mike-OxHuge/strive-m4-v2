@@ -2,66 +2,6 @@ import { useState, useEffect } from "react";
 import AddComment from "./AddComment";
 import DeleteComment from "./DeleteComments";
 import styles from "../styles/Comments.module.css";
-// class Comments extends Component {
-//   state = {
-//     asin: this.props.book.asin,
-//     comments: [],
-//     apiKey: "",
-//     isLoading: true,
-//   };
-
-//   fetchComments = async () => {
-//     let response = await fetch(
-//       `https://striveschool-api.herokuapp.com/api/comments/${this.state.asin}`,
-//       {
-//         headers: {
-//           Authorization: this.state.apiKey,
-//         },
-//       }
-//     );
-//     let comments = await response.json();
-//     this.setState({
-//       comments,
-//       isLoading: false,
-//     });
-//   };
-
-//   componentDidMount = async () => {
-//     let username = "mikelitoris34@icloud.com";
-//     let password = "bollocks69";
-//     let request = await fetch(
-//       `https://striveschool-api.herokuapp.com/api/account/login?username=${username}&password=${password}`,
-//       {
-//         method: "POST",
-//       }
-//     );
-//     let key = await request.json();
-//     this.setState({
-//       apiKey: "Bearer " + key.access_token,
-//     });
-//     this.fetchComments();
-//   };
-
-//   refresh = () => {
-//     this.setState({
-//       isLoading: true,
-//     });
-//   };
-
-//   componentDidUpdate = async (prevProp, prevState) => {
-//     if (prevState.isLoading !== this.state.isLoading) {
-//       this.fetchComments();
-//     }
-//   };
-
-//   render() {
-//     return (
-
-//     );
-//   }
-// }
-
-// export default Comments;
 
 const Comments = ({ book }) => {
   const [asin, setAsin] = useState(book.asin);

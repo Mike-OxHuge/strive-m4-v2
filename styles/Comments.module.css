@@ -1,5 +1,5 @@
 .container:hover {
-  cursor: pointer;
+  background: rgba(46, 45, 45, 0.164);
 }
 .single:hover {
   border-left: blue 5px solid;
